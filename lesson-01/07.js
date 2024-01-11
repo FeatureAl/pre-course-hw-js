@@ -1,4 +1,4 @@
-let iAm = 'Я '
+let iAm = 'я '
 let krasavchik = "красавчик!";
 let = iAm + krasavchik;
 console.log(let);
