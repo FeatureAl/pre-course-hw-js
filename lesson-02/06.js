@@ -7,11 +7,11 @@ let passportWithAddress = {
     }
 };
 
-let clone = {...passportWithAddress, address:{...passportWithAddress.address}}
+let clone1 = {...passportWithAddress, address:{...passportWithAddress.address}}
 
-clone.address.city = 'Bobryisk';
+clone1.address.city = 'Bobryisk';
 
-console.log(clone.address.city);
+console.log(clone1.address.city);
 console.log(passportWithAddress.address.city);
 
 
