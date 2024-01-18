@@ -7,7 +7,7 @@ let passportWithAddress = {
     }
 };
 
-let clone = structuredClone(passportWithAddress);
+let clone = {...passportWithAddress, address:{...passportWithAddress.address}}
 
 clone.address.city = 'Bobryisk';
 
