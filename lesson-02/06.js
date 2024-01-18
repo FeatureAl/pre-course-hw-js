@@ -7,7 +7,7 @@ let passportWithAddress = {
     }
 };
 
-let clone1 = {...passportWithAddress, address:{...passportWithAddress.address}}
+let clone1 = { ...passportWithAddress, address: { ...passportWithAddress.address } }
 
 clone1.address.city = 'Bobryisk';
 
