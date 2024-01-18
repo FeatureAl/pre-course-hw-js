@@ -11,8 +11,9 @@ let clone1 = {...passportWithAddress, address:{...passportWithAddress.address}}
 
 clone1.address.city = 'Bobryisk';
 
-console.log(clone1.address.city);
 console.log(passportWithAddress.address.city);
+console.log(clone1.address.city);
+
 
 
 
